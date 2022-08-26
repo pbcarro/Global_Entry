@@ -3,6 +3,9 @@ import time
 import matplotlib.pyplot as plt
 import datetime
 
+#Loosely based on https://packetlife.net/blog/2019/aug/7/apis-real-life-snagging-global-entry-interview/ there are also several other repo's available
+
+
 #Use a browsers network debugging tools to see the specific request from https://ttp.cbp.dhs.gov/schedulerui/schedule-interview/location?lang=en&vo=true&returnUrl=ttp-external&service=up 
 #Click on your desired location, should look like https://ttp.cbp.dhs.gov/schedulerapi/slots?orderBy=soonest&limit=1&locationId=5200&minimum=1
 LocationsDict = {
